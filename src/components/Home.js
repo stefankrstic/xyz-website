@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { fadeIn } from "@/varianrs";
+import { fadeIn } from "@/variants";
 
 export default function Home() {
     return (

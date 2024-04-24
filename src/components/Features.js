@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { fadeIn } from "@/varianrs";
+import { fadeIn } from "@/variants";
 
 export default function Features() {
     return (
@@ -23,7 +23,7 @@ export default function Features() {
                     variants={fadeIn("up", 0.3)}
                     initial="hidden"
                     whileInView={"show"}
-                    viewport={{ once: false, amount: 0.7 }}
+                    viewport={{ once: false, amount: 0.2 }}
                     className="w-full lg:w-3/4"
                 >
                     <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-start md:gap-12 gap-8">

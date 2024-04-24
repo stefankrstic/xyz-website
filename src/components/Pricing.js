@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { MdDone } from "react-icons/md";
 import { IoMdClose } from "react-icons/io";
 import { motion } from "framer-motion";
-import { fadeIn } from "@/varianrs";
+import { fadeIn } from "@/variants";
 
 export default function Pricing() {
     const [isYearly, setIsYearly] = useState(false);
