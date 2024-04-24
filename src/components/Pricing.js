@@ -70,7 +70,7 @@ export default function Pricing() {
                         <h3 className="text-3xl font-bold text-center text-primary">{pkg.name}</h3>
                         <p className="text-tartiary text-center my-5">{pkg.description}</p>
                         <p className="mt-5 text-center text-secondary text-4xl font-bold">
-                            {isYearly ? `${pkg.yearlyPrice}` : `${pkg.monthlyPrice}`}
+                            {isYearly ? `$${pkg.yearlyPrice}` : `$${pkg.monthlyPrice}`}
                             <span className="text-base text-tartiary font-medium">/{isYearly ? "year" : "month"}</span>
                         </p>
                         <ul className="mt-4 space-y-2 px-4">
