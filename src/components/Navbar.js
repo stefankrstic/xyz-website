@@ -3,6 +3,7 @@ import { FaReact } from "react-icons/fa";
 import { MdLanguage } from "react-icons/md";
 import { IoMenu } from "react-icons/io5";
 import { FaXmark } from "react-icons/fa6";
+import { Link } from "react-scroll";
 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,9 +28,17 @@ export default function Navbar() {
                         </a>
                         <ul className="md:flex space-x-12 hidden">
                             {navItems.map(({ link, path }) => (
-                                <a key={link} href={path} className="block hover:text-gray-300">
+                                <Link
+                                    activeClass="active"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-100}
+                                    key={link}
+                                    to={path}
+                                    className="block hover:text-gray-300 cursor-pointer"
+                                >
                                     {link}
-                                </a>
+                                </Link>
                             ))}
                         </ul>
                     </div>
@@ -57,9 +66,18 @@ export default function Navbar() {
                 className={`space-y-4 px-4 pt-24 pb-5 bg-secondary ${isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`}
             >
                 {navItems.map(({ link, path }) => (
-                    <a key={link} href={path} className="block hover:text-gray-300">
+                    <Link
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={-80}
+                        key={link}
+                        to={path}
+                        className="block hover:text-gray-300 text-white cursor-pointer"
+                        onClick={toggleMenu}
+                    >
                         {link}
-                    </a>
+                    </Link>
                 ))}
             </div>
         </>

@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
     return (
         <>
-            <div className="md:px-14 p-4 max-w-s max-auto space-y-10">
+            <div className="md:px-14 p-4 max-w-s max-auto space-y-10" id="about">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8">
                     <div className="md:w-1/2">
                         <img src="https://ecocix.com/static/media/GirlReading.36b735af4c8b051d12099388f0f8b6b8.svg"></img>
