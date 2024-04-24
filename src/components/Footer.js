@@ -83,17 +83,17 @@ export default function Footer() {
                 <div className="flex items-center space-x-5">
                     <FaFacebookSquare
                         size={28}
-                        className="cursor-pointer hover:-translate-y-4 transition-all duration-300"
+                        className="cursor-pointer hover:-translate-y-2 transition-all duration-300"
                     />
                     <FaInstagram
                         size={28}
-                        className="cursor-pointer hover:-translate-y-4 transition-all duration-300"
+                        className="cursor-pointer hover:-translate-y-2 transition-all duration-300"
                     />
                     <FaSquareXTwitter
                         size={28}
-                        className="cursor-pointer hover:-translate-y-4 transition-all duration-300"
+                        className="cursor-pointer hover:-translate-y-2 transition-all duration-300"
                     />
-                    <CiLinkedin size={28} className="cursor-pointer hover:-translate-y-4 transition-all duration-300" />
+                    <CiLinkedin size={28} className="cursor-pointer hover:-translate-y-2 transition-all duration-300" />
                 </div>
             </div>
         </div>

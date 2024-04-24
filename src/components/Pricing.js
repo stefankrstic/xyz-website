@@ -16,7 +16,7 @@ export default function Pricing() {
                 "A common form of Lorem ipsum reads: Lorem iosum dolor sit amet, consecteture adipiscing elite.",
         },
         {
-            name: "Advcance",
+            name: "Advance",
             monthlyPrice: 39,
             yearlyPrice: 399,
             description:

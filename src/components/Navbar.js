@@ -47,7 +47,7 @@ export default function Navbar() {
                             <MdLanguage className="mr-2" />
                             Language
                         </a>
-                        <button className="bg-secondary py-2 px-2 transition-all duration-300 rounded hover:text-white hover:bg-indigo-600">
+                        <button className="bg-secondary py-2 px-2 transition-all duration-300 rounded hover:text-white hover:bg-primary">
                             Sign up
                         </button>
                     </div>

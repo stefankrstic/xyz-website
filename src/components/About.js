@@ -53,7 +53,7 @@ export default function About() {
                         className="md:w-2/5"
                     >
                         <h2 className="md:text-5xl text-3xl font-bold text-primary mb-5 leading-normal">
-                            You can Pracrice at any <span className="text-secondary">time convinent for you.</span>
+                            You can practice at any <span className="text-secondary">time convenient for you.</span>
                         </h2>
                         <p className="text-tartiary text-lg mb-7">
                             A good example of a paragraph contains a topic conclusion. There are many diffrent kinds of
