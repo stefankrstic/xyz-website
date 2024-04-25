@@ -29,7 +29,10 @@ export default function Features() {
                     <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-start md:gap-12 gap-8">
                         <div className="bg-[rgba(255, 255, 255, 0.04)] rounded-[35px] h-96 shadow-3xl p-8 items-center flex justify-center items-center hover:-translate-y-4 transition-all duration-300 cursor-pointer">
                             <div>
-                                <img src="https://cdn.pixabay.com/photo/2022/01/22/01/54/path-6956085_1280.png"></img>
+                                <img
+                                    src="https://cdn.pixabay.com/photo/2022/01/22/01/54/path-6956085_1280.png"
+                                    alt=""
+                                ></img>
                                 <h5 className="text-2xl font-semibold text-primary pt-5 text-center">
                                     Conventient study schedule
                                 </h5>
@@ -37,7 +40,10 @@ export default function Features() {
                         </div>
                         <div className="bg-[rgba(255, 255, 255, 0.04)] rounded-[35px] h-96 shadow-3xl p-8 items-center flex justify-center items-center hover:-translate-y-4 transition-all duration-300 cursor-pointer md:mt-16">
                             <div>
-                                <img src="https://cdn.pixabay.com/photo/2022/01/22/01/54/path-6956085_1280.png"></img>
+                                <img
+                                    src="https://cdn.pixabay.com/photo/2022/01/22/01/54/path-6956085_1280.png"
+                                    alt=""
+                                ></img>
                                 <h5 className="text-2xl font-semibold text-primary pt-5 text-center">
                                     Conventient study schedule
                                 </h5>
@@ -45,7 +51,10 @@ export default function Features() {
                         </div>
                         <div className="bg-[rgba(255, 255, 255, 0.04)] rounded-[35px] h-96 shadow-3xl p-8 items-center flex justify-center items-center hover:-translate-y-4 transition-all duration-300 cursor-pointer">
                             <div>
-                                <img src="https://cdn.pixabay.com/photo/2022/01/22/01/54/path-6956085_1280.png"></img>
+                                <img
+                                    src="https://cdn.pixabay.com/photo/2022/01/22/01/54/path-6956085_1280.png"
+                                    alt=""
+                                ></img>
                                 <h5 className="text-2xl font-semibold text-primary pt-5 text-center">
                                     Conventient study schedule
                                 </h5>

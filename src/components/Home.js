@@ -13,7 +13,7 @@ export default function Home() {
                         whileInView={"show"}
                         viewport={{ once: false, amount: 0.7 }}
                     >
-                        <img src="https://bucket.webdevamin.com/blogging.svg" className="lg:h-[386px]"></img>
+                        <img src="https://bucket.webdevamin.com/blogging.svg" alt="" className="lg:h-[386px]"></img>
                     </motion.div>
                     <motion.div
                         variants={fadeIn("up", 0.2)}

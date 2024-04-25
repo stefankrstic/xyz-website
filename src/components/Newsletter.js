@@ -9,6 +9,7 @@ export default function Newsletter() {
                         <img
                             src="https://assets-global.website-files.com/6031c35f3bcd264f525899cc/603afbc8f4f45c67a65347cf_undraw_Feeling_of_joy_re_cqko.svg"
                             className="lg:h-[386px]"
+                            alt=""
                         ></img>
                     </div>
                     <div className="md:w-3/5">

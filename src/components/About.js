@@ -14,7 +14,10 @@ export default function About() {
                         viewport={{ once: false, amount: 0.7 }}
                         className="md:w-1/2"
                     >
-                        <img src="https://ecocix.com/static/media/GirlReading.36b735af4c8b051d12099388f0f8b6b8.svg"></img>
+                        <img
+                            src="https://ecocix.com/static/media/GirlReading.36b735af4c8b051d12099388f0f8b6b8.svg"
+                            alt=""
+                        ></img>
                     </motion.div>
                     <motion.div
                         variants={fadeIn("left", 0.3)}
@@ -43,7 +46,10 @@ export default function About() {
                         viewport={{ once: false, amount: 0.7 }}
                         className="md:w-1/2"
                     >
-                        <img src="https://i0.wp.com/kartaca.com/wp-content/uploads/2023/03/Untitled-design-2.png?w=1180&ssl=1"></img>
+                        <img
+                            src="https://i0.wp.com/kartaca.com/wp-content/uploads/2023/03/Untitled-design-2.png?w=1180&ssl=1"
+                            alt=""
+                        ></img>
                     </motion.div>
                     <motion.div
                         variants={fadeIn("right", 0.3)}
