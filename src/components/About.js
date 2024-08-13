@@ -15,7 +15,7 @@ export default function About() {
                         className="md:w-1/2"
                     >
                         <img
-                            src="https://ecocix.com/static/media/GirlReading.36b735af4c8b051d12099388f0f8b6b8.svg"
+                            src="https://www.touchsms.com.au/wp-content/uploads/2022/03/touchSMS_blog-step-by-step-guide.jpg"
                             alt=""
                         ></img>
                     </motion.div>
